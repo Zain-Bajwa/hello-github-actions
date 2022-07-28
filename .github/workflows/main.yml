@@ -1,4 +1,4 @@
-name: Pylint, PyCodeStyle,PyTest Runner
+name: Pylint, PyCodeStyle, PyTest Runner
 
 on: [push]
 
@@ -21,3 +21,6 @@ jobs:
     - name: Run pycodestyle
       run: |
         pycodestyle ./src
+    - name: Run pylint
+      run: |
+        pylint ./src
