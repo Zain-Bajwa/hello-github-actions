@@ -1,4 +1,4 @@
-name: PyLint Runner
+name: Pylint, PyCodeStyle,PyTest Runner
 
 on: [push]
 
@@ -17,6 +17,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install pycodestyle
+        pip install pytest
     - name: Run pycodestyle
       run: |
         pycodestyle ./src
