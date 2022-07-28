@@ -18,6 +18,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install pycodestyle
         pip install pytest
+        pip install pylint
     - name: Run pycodestyle
       run: |
         pycodestyle ./src
