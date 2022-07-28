@@ -25,3 +25,6 @@ jobs:
     - name: Run pylint
       run: |
         pylint ./src
+    - name: Run pytest
+      run: |
+        pytest ./src
