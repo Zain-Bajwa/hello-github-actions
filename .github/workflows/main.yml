@@ -16,7 +16,7 @@ jobs:
     - name: Install Requirements
       run: |
         python -m pip install --upgrade pip
-        pip install pylcodestyle
-    - name: Run pylcodestyle
+        pip install pycodestyle
+    - name: Run pycodestyle
       run: |
-        pylcodestyle ./src
+        pycodestyle ./src
