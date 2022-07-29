@@ -1,0 +1,5 @@
+name: "Formatting of Code"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
